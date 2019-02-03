@@ -8793,7 +8793,8 @@ body {
 .vim-caret {
   -webkit-animation: vimCaret 1s linear infinite;
        -o-animation: vimCaret 1s linear infinite;
-          animation: vimCaret 1s linear infinite; }
+          animation: vimCaret 1s linear infinite; 
+          }
 
 @-webkit-keyframes vimCaret {
   0% {
@@ -8801,9 +8802,9 @@ body {
   49% {
     background-color: transparent; }
   50% {
-    background-color: rgba(255, 255, 255, 0.2); }
+    background-color: rgba(23,176,107, 0.2); }
   100% {
-    background-color: rgba(255, 255, 255, 0.2); } }
+    background-color: rgba(23,176,107, 0.2); } }
 
 @-o-keyframes vimCaret {
   0% {
@@ -8811,9 +8812,9 @@ body {
   49% {
     background-color: transparent; }
   50% {
-    background-color: rgba(255, 255, 255, 0.2); }
+    background-color: rgba(23,176,107, 0.2); }
   100% {
-    background-color: rgba(255, 255, 255, 0.2); } }
+    background-color: rgba(23,176,107, 0.2); } }
 
 @keyframes vimCaret {
   0% {
@@ -8821,9 +8822,9 @@ body {
   49% {
     background-color: transparent; }
   50% {
-    background-color: rgba(255, 255, 255, 0.2); }
+    background-color: rgba(23,176,107, 0.2); }
   100% {
-    background-color: rgba(255, 255, 255, 0.2); } }
+    background-color: rgba(23,176,107, 0.2); } }
 
 .list-group-item-primary {
   color: #3b2874;
