@@ -3,15 +3,23 @@
     width: 500px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) 
+{
     .canvas_img{
         height: auto;
         width: 250px;
     }
-  }
+}
 
-  #particles-js {
+#particles-js {
     position : absolute;
     width:100%;
     height:100%;
+}
+
+.panel.panel-default{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #714cdf;
 }
