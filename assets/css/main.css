@@ -22,4 +22,19 @@
     margin-bottom: 20px;
     border-radius: 10px;
     border: 1px solid #714cdf;
+    background-color: #0c0d16;
+}
+
+.solved
+{
+    background-color: #282a38 !important;
+}
+
+#svgContainer { 
+	z-index: -10;
+	position:absolute;
+}
+
+.mb-10{
+    margin-bottom: 6rem !important;
 }
