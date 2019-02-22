@@ -7,7 +7,7 @@
     <title>PICT - CTF</title>
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="assets/css/flipclock.css">
     <link rel="stylesheet" href="assets/css/bootstrap4-neon-glow.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
     
@@ -16,7 +16,6 @@
     
   </head>
   <body>
-
     <div class="navbar-dark text-white">
       <div class="container">
         <nav class="navbar px-0 navbar-expand-lg navbar-dark">
@@ -26,12 +25,15 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a href="index.html" class="pl-md-0 p-3 text-light">Home</a>
-              <a href="login.html" class="p-3 text-decoration-none text-light">Login</a>
-              <a href="registration.html" class="p-3 text-decoration-none text-light active">Register</a>
+              <a href="leaderboard.html" class="p-3 text-decoration-none text-light">Leaderboard</a>
+            </div>
+            <div class="nav-right">
+                <div class="countdown-timer" style="float:right"></div>
+                <div class="mr-4" style="float:right">80 Points</div>
+                <div class="mr-4" style="float:right">TEAM NAME</div>
             </div>
           </div>
         </nav>
-  
       </div>
     </div>
     <h1 class="display-3" style="text-align: center"><b>Quest ZONE!<span class="vim-caret">͏͏&nbsp;</span></h1>
@@ -47,9 +49,9 @@
                   <div class="container">
                     <div class="panel-heading">
                       <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
-                        <h4 class="panel-title">
-                          Challenge 1
-                        </h4>
+                        <div class="panel-title">
+                          <h4>Challenge 1<p style="float:right">80 points</p></h4>
+                        </div>
                       </a>
                     </div>
                     <div id="collapse1" class="panel-collapse collapse in">
@@ -81,9 +83,9 @@
                     <div class="container">
                     <div class="panel-heading">
                       <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
-                        <h4 class="panel-title">
-                          Challenge 2
-                        </h4>
+                        <div class="panel-title">
+                          <h4>Challenge 2<p style="float:right">110 points</p></h4>
+                        </div>
                       </a>
                     </div>
                     <div id="collapse2" class="panel-collapse collapse in">
@@ -115,9 +117,9 @@
                   <div class="container">
                     <div class="panel-heading">
                       <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
-                        <h4 class="panel-title">
-                          Challenge 3
-                        </h4>
+                        <div class="panel-title">
+                          <h4>Challenge 3<p style="float:right">100 points</p></h4>
+                        </div>
                       </a>
                     </div>
                     <div id="collapse3" class="panel-collapse collapse in">
@@ -158,5 +160,14 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="assets/js/flipclock.min.js"></script>
+    <script>
+      var clock = new FlipClock($('.countdown-timer'), 10 ,{
+        countdown: true,
+        onStart: function() {
+          console.log("hi");
+        },
+      });
+    </script>
   </body>
 </html>

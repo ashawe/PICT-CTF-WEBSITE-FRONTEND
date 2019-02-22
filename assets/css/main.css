@@ -3,6 +3,16 @@
     width: 500px;
 }
 
+.navbar-nav{
+    width: 100%;
+}
+
+.nav-right{
+    width: 100%;
+    float: right;
+    text-align: right;
+}
+
 @media only screen and (max-width: 600px) 
 {
     .canvas_img{
@@ -37,4 +47,15 @@
 
 .mb-10{
     margin-bottom: 6rem !important;
+}
+
+/* CLOCK */
+
+.flip{
+    width: 10px;
+    height: 30px;
+    line-height: 30px;
+}
+.inn{
+    font-size: 20px;
 }
