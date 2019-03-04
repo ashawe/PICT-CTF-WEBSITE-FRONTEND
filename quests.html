@@ -29,14 +29,14 @@
             </div>
             <div class="nav-right">
                 <div class="countdown-timer" style="float:right"></div>
-                <div class="mr-4" style="float:right">80 Points</div>
-                <div class="mr-4" style="float:right">TEAM NAME</div>
+                <div class="mr-4 p-3" style="float:right">80 Points</div>
+                <div class="mr-4 p-3" style="float:right">TEAM NAME</div>
             </div>
           </div>
         </nav>
       </div>
     </div>
-    <h1 class="display-3" style="text-align: center"><b>Quest ZONE!<span class="vim-caret">͏͏&nbsp;</span></h1>
+    <h1 class="display-3" style="text-align: center"><b>Quest ZONE!<span class="vim-caret">͏͏&nbsp;</span></b></h1>
     <div class="lead mb-3 text-mono text-success"style="text-align: center">
         Are you ready to solve the quests?
     </div>
@@ -50,22 +50,31 @@
                     <div class="panel-heading">
                       <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
                         <div class="panel-title">
-                          <h4>Challenge 1<p style="float:right">80 points</p></h4>
+                          <h4>
+                            Challenge 1
+                            <p style="float:right">
+                              80 points
+                            </p>
+                          </h4>
                         </div>
                       </a>
                     </div>
                     <div id="collapse1" class="panel-collapse collapse in">
-                      <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      <div class="panel-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
                       minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
                       commodo consequat
                         <br>
                         <br>
                         <div class="row justify-content-between">
-                          <div class="col-xl-3 align-self-center">
-                              <a href="#!" class="btn btn-shadow text-mono btn-outline-success">Download challenge</a>
+                          <div class="col-xl-4 align-self-center">
+                            <a href="#!" class="btn btn-shadow text-mono btn-outline-success" style="width:100%"><span class="fa fa-download mr-2"></span>Download challenge</a>
                           </div>
-                          <div class="col-xl-3 align-self-center">
+                          <div class="col-xl-4 align-self-center">
+                                <button type="button" class="btn btn-shadow btn-outline-success" data-toggle="modal" data-target="#hint1" style="width:100%"><span class="far fa-lightbulb mr-2"></span>Get HINT</button>
+                          </div>
+                          <div class="col-xl-4 align-self-center">
                             <div class="input-group">
                               <input type="text" class="form-control" placeholder="Enter Flag" aria-label="Enter Flag"
                                 aria-describedby="basic-addon2">
@@ -96,10 +105,13 @@
                         <br>
                         <br>
                         <div class="row justify-content-between">
-                          <div class="col-xl-3 align-self-center">
-                              <a href="#!" class="btn btn-shadow text-mono btn-outline-success">Download challenge</a>
+                          <div class="col-xl-4 align-self-center">
+                              <a href="#!" class="btn btn-shadow text-mono btn-outline-success" style="width:100%"><span class="fa fa-download mr-2"></span>Download challenge</a>
                           </div>
-                          <div class="col-xl-3 align-self-center">
+                          <div class="col-xl-4 align-self-center">
+                                <button type="button" class="btn btn-shadow btn-outline-success" data-toggle="modal" data-target="#hint2" style="width:100%"><span class="far fa-lightbulb mr-2"></span>Get HINT</button>
+                          </div>
+                          <div class="col-xl-4 align-self-center">
                             <div class="input-group">
                               <input type="text" class="form-control" placeholder="Enter Flag" aria-label="Enter Flag"
                                 aria-describedby="basic-addon2">
@@ -130,10 +142,13 @@
                         <br>
                         <br>
                         <div class="row justify-content-between">
-                          <div class="col-xl-3 align-self-center">
-                              <a href="#!" class="btn btn-shadow text-mono btn-outline-success">Download challenge</a>
+                          <div class="col-xl-4 align-self-center">
+                              <a href="#!" class="btn btn-shadow text-mono btn-outline-success" style="width:100%"><span class="fa fa-download mr-2"></span>Download challenge</a>
                           </div>
-                          <div class="col-xl-3 align-self-center">
+                          <div class="col-xl-4 align-self-center">
+                                <button type="button" class="btn btn-shadow btn-outline-success" data-toggle="modal" data-target="#hint3" style="width:100%"><span class="far fa-lightbulb mr-2"></span>Get HINT</button>
+                          </div>
+                          <div class="col-xl-4 align-self-center">
                             <div class="input-group">
                               <input type="text" class="form-control" placeholder="Enter Flag" aria-label="Enter Flag"
                                 aria-describedby="basic-addon2">
@@ -154,6 +169,36 @@
       </div>
     </div>
 
+    <div class="modal fade" id="hint1" tabindex="-1" role="dialog" aria-labelledby="hint label" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            HINT 1 GOES HERE 
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="hint2" tabindex="-1" role="dialog" aria-labelledby="hint label" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            HINT 2 GOES HERE 
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="hint3" tabindex="-1" role="dialog" aria-labelledby="hint label" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            HINT 3 GOES HERE 
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
@@ -164,9 +209,9 @@
     <script>
       var clock = new FlipClock($('.countdown-timer'), 10 ,{
         countdown: true,
-        onStart: function() {
+        onEnd: function() {
           console.log("hi");
-        },
+        }
       });
     </script>
   </body>
