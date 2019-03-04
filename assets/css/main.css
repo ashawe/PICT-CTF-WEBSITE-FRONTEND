@@ -50,12 +50,7 @@
 }
 
 /* CLOCK */
-
-.flip{
-    width: 10px;
-    height: 30px;
-    line-height: 30px;
-}
-.inn{
-    font-size: 20px;
+.countdown-timer {
+    zoom: 0.5;
+    -moz-transform: scale(0.5);
 }
