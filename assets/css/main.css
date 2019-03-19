@@ -49,6 +49,13 @@
     margin-bottom: 6rem !important;
 }
 
+
+a:focus {
+    outline:none;
+}
+a::-moz-focus-inner {
+    border:0;
+}
 /* CLOCK */
 .countdown-timer {
     zoom: 0.5;
