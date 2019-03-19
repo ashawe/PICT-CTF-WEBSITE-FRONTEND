@@ -61,3 +61,8 @@ a::-moz-focus-inner {
     zoom: 0.5;
     -moz-transform: scale(0.5);
 }
+
+.footer img{
+    width: 350px;
+    height: 250px;
+}
