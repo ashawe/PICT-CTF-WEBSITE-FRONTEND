@@ -11,6 +11,9 @@ PICT-CTF-WEBSITE-FRONTEND is a frontend template made for a simple CTF event. Yo
 - Leaderboard Page
 - About / Rules Page
 
+## DEMO
+https://ashawe.github.io/PICT-CTF-WEBSITE-FRONTEND/
+
 ## What is this repo?
 - A front end template
 - Static HTML website for CTF ( Capture the Flag )
